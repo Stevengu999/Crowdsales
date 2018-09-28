@@ -37,8 +37,8 @@ pragma solidity ^0.4.8;
    contract NotusSupplyToken is ERC20Interface {
       string public constant symbol = "NoT"; //单位
       string public constant name = "Notus Token"; //名称
-      uint8 public constant decimals = 4; //小数点后的位数
-      uint256 _totalSupply = 2000000000000; //发行总量
+      uint8 public constant decimals = 18; //小数点后的位数
+      uint256 _totalSupply = 1000000000000000000000000000; //发行总量
 
       // 智能合约的所有者
       address public owner;
